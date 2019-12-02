@@ -4,9 +4,7 @@
  */
 
 /*
- * Productos.java
- *
- * Created on 12-abr-2013, 8:14:37
+ * 
  */
 package Formulario;
 

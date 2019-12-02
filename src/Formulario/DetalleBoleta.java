@@ -4,9 +4,7 @@
  */
 
 /*
- * DetalleBoleta.java
  *
- * Created on 17-abr-2013, 8:04:04
  */
 package Formulario;
 

@@ -4,9 +4,7 @@
  */
 
 /*
- * DetalleFactura.java
  *
- * Created on 16-abr-2013, 8:55:12
  */
 package Formulario;
 

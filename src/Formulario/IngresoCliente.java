@@ -4,9 +4,9 @@
  */
 
 /*
- * IngresoCliente.java
  *
- * Created on 07-abr-2013, 11:16:29
+ *
+ *
  */
 package Formulario;
 

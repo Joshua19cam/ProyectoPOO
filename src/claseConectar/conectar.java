@@ -4,7 +4,7 @@ import java.sql.*;
 import javax.swing.*;
 /**
  *
- * @author Sony
+
  */
 
 public class conectar {
@@ -14,7 +14,8 @@ Connection conect = null;
       try {
              
            //Cargamos el Driver MySQL
-           c
+            Class.forName("com.mysql.jdbc.Driver");
+           conect = DriverManager.getConnection("jdbc:mysql://localhost/tienda","root","root");
            //JOptionPane.showMessageDialog(null, "conectado");
            //Cargamos el Driver Access
            //Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");

@@ -4,9 +4,7 @@
  */
 
 /*
- * ConsultasClientes.java
- *
- * Created on 15-abr-2013, 8:33:48
+ * 
  */
 package Formulario;
 

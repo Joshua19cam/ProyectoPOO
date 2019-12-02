@@ -4,9 +4,7 @@
  */
 
 /*
- * ConsultasBoletas.java
- *
- * Created on 17-abr-2013, 8:39:09
+ * 
  */
 package Formulario;
 

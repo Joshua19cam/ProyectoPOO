@@ -4,9 +4,7 @@
  */
 
 /*
- * ConsultasFacturas.java
- *
- * Created on 16-abr-2013, 7:44:21
+ * 
  */
 package Formulario;
 

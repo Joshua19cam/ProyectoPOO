@@ -4,9 +4,7 @@
  */
 
 /*
- * clientes.java
- *
- * Created on 09-abr-2013, 18:07:11
+ * 
  */
 package Formulario;
 

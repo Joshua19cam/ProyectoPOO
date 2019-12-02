@@ -4,9 +4,9 @@
  */
 
 /*
- * IngresoProductos.java
+ * 
  *
- * Created on 06-abr-2013, 8:59:24
+ * 
  */
 package Formulario;
 

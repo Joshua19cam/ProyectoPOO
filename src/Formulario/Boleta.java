@@ -4,9 +4,7 @@
  */
 
 /*
- * Boleta.java
- *
- * Created on 16-abr-2013, 10:39:15
+ * 
  */
 package Formulario;
 
@@ -262,7 +260,7 @@ public static String fechaact(){
         setResizable(true);
         setTitle("BOLETA");
 
-        jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 11));
+        jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 11)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 51, 255));
         jLabel1.setText("TIENDA M&F");
 
@@ -322,11 +320,11 @@ public static String fechaact(){
 
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setText("RUC 10046495581");
 
         jLabel6.setBackground(new java.awt.Color(51, 51, 255));
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12));
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setText("       Boleta de Venta");
         jLabel6.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 153, 153)));
 
@@ -370,10 +368,10 @@ public static String fechaact(){
 
         jLabel9.setText("Señor(es):");
 
-        txtnomape.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtnomape.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtnomape.setEnabled(false);
 
-        txtdni.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtdni.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtdni.setEnabled(false);
         txtdni.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -385,10 +383,10 @@ public static String fechaact(){
 
         jLabel11.setText("Cod.Cliente");
 
-        txtcod.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtcod.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtcod.setEnabled(false);
 
-        txtfecha.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtfecha.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtfecha.setEnabled(false);
         txtfecha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -398,7 +396,7 @@ public static String fechaact(){
 
         jLabel12.setText("Fecha:");
 
-        txtdire.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtdire.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtdire.setEnabled(false);
         txtdire.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

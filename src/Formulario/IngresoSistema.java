@@ -4,9 +4,7 @@
  */
 
 /*
- * IngresoSistema.java
- *
- * Created on 15-abr-2013, 12:05:20
+ * 
  */
 package Formulario;
 

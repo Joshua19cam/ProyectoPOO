@@ -4,9 +4,7 @@
  */
 
 /*
- * Factura.java
- *
- * Created on 08-abr-2013, 18:16:22
+ * 
  */
 package Formulario;
 
@@ -277,7 +275,7 @@ public class Factura extends javax.swing.JInternalFrame {
         setTitle("FACTURA");
         setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 11));
+        jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 11)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 51, 255));
         jLabel1.setText("TIENDA M&F");
 
@@ -337,7 +335,7 @@ public class Factura extends javax.swing.JInternalFrame {
 
         jLabel8.setText("Señor(a):");
 
-        txtnomape.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtnomape.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtnomape.setForeground(new java.awt.Color(0, 51, 204));
         txtnomape.setEnabled(false);
         txtnomape.addActionListener(new java.awt.event.ActionListener() {
@@ -354,7 +352,7 @@ public class Factura extends javax.swing.JInternalFrame {
             }
         });
 
-        txtruc.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtruc.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtruc.setEnabled(false);
 
         btnproductos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buscar.jpg"))); // NOI18N
@@ -365,16 +363,16 @@ public class Factura extends javax.swing.JInternalFrame {
             }
         });
 
-        txtcod.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtcod.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtcod.setEnabled(false);
 
         jLabel11.setText("Cod. Cliente:");
 
-        txtdni.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtdni.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtdni.setForeground(new java.awt.Color(51, 51, 255));
         txtdni.setEnabled(false);
 
-        txtdir.setFont(new java.awt.Font("Tahoma", 1, 11));
+        txtdir.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         txtdir.setEnabled(false);
 
         jLabel10.setText("Direccion:");
@@ -405,7 +403,7 @@ public class Factura extends javax.swing.JInternalFrame {
                         .addContainerGap()
                         .addComponent(jLabel17)
                         .addGap(18, 18, 18)
-                        .addComponent(txtfac, javax.swing.GroupLayout.DEFAULT_SIZE, 92, Short.MAX_VALUE))
+                        .addComponent(txtfac))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(28, 28, 28)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -629,9 +627,9 @@ public class Factura extends javax.swing.JInternalFrame {
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(btnguardar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btncalcular, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE))
-                    .addComponent(btnsalir, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
-                    .addComponent(btneliminar, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE))
+                        .addComponent(btncalcular, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(btnsalir, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btneliminar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
@@ -666,7 +664,7 @@ public class Factura extends javax.swing.JInternalFrame {
                                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap(15, Short.MAX_VALUE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(40, 40, 40))))
@@ -690,8 +688,7 @@ public class Factura extends javax.swing.JInternalFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
-        setBounds((screenSize.width-705)/2, (screenSize.height-479)/2, 705, 479);
+        setBounds(0, 0, 705, 479);
     }// </editor-fold>//GEN-END:initComponents
 public static String fechaactual(){
     Date fecha= new Date();

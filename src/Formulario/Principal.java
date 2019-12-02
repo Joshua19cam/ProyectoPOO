@@ -6,7 +6,7 @@
 /*
  * Principal.java
  *
- * Created on 05-abr-2013, 20:15:45
+ * 
  */
 package Formulario;
 
